@@ -1,43 +1,43 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'YekanBakhBold';
-    src: url('../fonts/YekanBakhBold.woff') format('woff');
+  font-family: "YekanBakhBold";
+  src: url("../fonts/YekanBakhBold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'YekanBakhHeavy';
-    src: url('../fonts/YekanBakhHeavy.woff') format('woff');
+  font-family: "YekanBakhHeavy";
+  src: url("../fonts/YekanBakhHeavy.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'YekanBakhMedium';
-    src: url('../fonts/YekanBakhMedium.woff') format('woff');
+  font-family: "YekanBakhMedium";
+  src: url("../fonts/YekanBakhMedium.woff") format("woff");
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 14px;
+  width: 14px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    border-radius: 8px;
-    background-color: #E7E7E7;
+  border-radius: 8px;
+  background-color: #e7e7e7;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #b3b3b3;
-    border-radius: 8px;
+  background: #b3b3b3;
+  border-radius: 8px;
 }
 
 html,
 body {
-    font-family: 'YekanBakhMedium', serif;
-    scroll-behavior: smooth;
+  font-family: "YekanBakhMedium", serif;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -47,1113 +47,1106 @@ h4,
 h5,
 h6,
 strong {
-    font-family: 'YekanBakhBold', serif;
+  font-family: "YekanBakhBold", serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .container-fluid {
-    padding: 0 64px;
+  padding: 0 64px;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
-
 header {
-    background-color: #fffcf8ee;
-    backdrop-filter: blur(2px);
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    box-shadow: 0 2px 10px #d3d3d35e;
+  background-color: #fffcf8ee;
+  backdrop-filter: blur(2px);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  box-shadow: 0 2px 10px #d3d3d35e;
 }
 
 .header-content {
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headerMenu {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
 }
 
 .headerLogo {
-    display: flex;
-    align-items: center;  
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .headerLogo h2 {
-    color: #474747;
+  color: #474747;
 }
 
 .hamburgerMenu {
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 .hamburgerMenu button {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .headerMenu .menus {
-    display: flex;
-    gap: 40px;
-} 
+  display: flex;
+  gap: 40px;
+}
 
 .menus li a {
-    height: 65px;
-    font-size: 16px;
-    color: black;
-    display: flex;
-    align-items: center;
-    border: 2px solid transparent;
-    transition-duration: 0.4s;
+  height: 65px;
+  font-size: 16px;
+  color: black;
+  display: flex;
+  align-items: center;
+  border: 2px solid transparent;
+  transition-duration: 0.4s;
 }
 
 .menus li:hover a {
-    color: #ff1456;
-   border-bottom: 2px solid #ff1456; 
+  color: #ff1456;
+  border-bottom: 2px solid #ff1456;
 }
 
 .header-content .headerButton {
-    display: flex;
-    align-items: center;
-    gap: 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .headerButton img:hover {
-    opacity: 0.6;
-    transition-duration: 0.3s;
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
 
 .headerButton a:last-child {
-    color: #ff1456;
-    font-size: 16px;
-    background-color: #FFFFFF;
-    padding: 4px 9px;
-    border-radius: 12px;
-    box-shadow: -1px 0px 5px #fc57868c;
-    transition: 0.7s;
+  color: #ff1456;
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 4px 9px;
+  border-radius: 12px;
+  box-shadow: -1px 0px 5px #fc57868c;
+  transition: 0.7s;
 }
 
 .headerButton a:last-child:hover {
-    background-color: #ff1456;
-    color: #FFFFFF;
+  background-color: #ff1456;
+  color: #ffffff;
 }
 
 .headerButton #line {
-    padding: 0 4px;
+  padding: 0 4px;
 }
 
 .menus .more-menu {
-    position: relative;
-    display: flex;
-    align-items: center;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .product-children {
-    display: none;
-    min-width: 190px;
-    position: absolute;
-    top: 65px;
-    background-color: white;
-    border-radius: 5px;
+  display: none;
+  min-width: 190px;
+  position: absolute;
+  top: 65px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .dropdown-arrow {
-    position: absolute;
-    top: -11px;
-    right: 14px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid transparent;
-    border-bottom: 12px solid white;
-    border-left: 12px solid transparent;
+  position: absolute;
+  top: -11px;
+  right: 14px;
+  width: 0;
+  height: 0;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid white;
+  border-left: 12px solid transparent;
 }
 
-.product-children .flower-item, .plant-item {
-    display: flex;
-    justify-content: space-between; 
-    color: #333 !important;
-    font-size: 15px !important;
-    border: none !important;
-    padding: 0 10px 0;
-    transition-duration: 0.5s;
+.product-children .flower-item,
+.plant-item {
+  display: flex;
+  justify-content: space-between;
+  color: #333 !important;
+  font-size: 15px !important;
+  border: none !important;
+  padding: 0 10px 0;
+  transition-duration: 0.5s;
 }
 
 .product-children .child-items {
-    display: flex;
-    align-items: flex-start;
-    gap: 7px;
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
 }
 
 .flower-item .flower-type,
-.plant-item .plant-type { 
-    font-size: 14px;
+.plant-item .plant-type {
+  font-size: 14px;
 }
 
 .menus .more-menu:hover .product-children,
 .product-children:hover {
-    display: block;
+  display: block;
 }
 
 .product-children .flower-item:hover {
-    color: red !important;
-    background-color: #FAFAFA;
+  color: red !important;
+  background-color: #fafafa;
 }
 
 .product-children .plant-item:hover {
-    color: #00B818 !important;
-    background-color: #FAFAFA;
+  color: #00b818 !important;
+  background-color: #fafafa;
 }
 
-.flower-type, .plant-type {
-   position: relative;
+.flower-type,
+.plant-type {
+  position: relative;
 }
 
 .dropleft-arrow {
-    position: absolute;
-    top: 10px;
-    right: -24px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid transparent;
-    border-left: 12px solid white;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
+  position: absolute;
+  top: 10px;
+  right: -24px;
+  width: 0;
+  height: 0;
+  border-right: 12px solid transparent;
+  border-left: 12px solid white;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
 }
 
-.flower-type,.plant-type p {
-    color: #333;
+.flower-type,
+.plant-type p {
+  color: #333;
 }
 
 .flower-type {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-    width: 130px;
-    min-height: 200px;
-    position: absolute;
-    top: 8px;
-    right: 195px;
-    background-color: white;
-    padding: 12px 16px;
-    cursor: pointer;
-    transition-duration: 1s;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  width: 130px;
+  min-height: 200px;
+  position: absolute;
+  top: 8px;
+  right: 195px;
+  background-color: white;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition-duration: 1s;
 }
 
 .flower-item:hover .flower-type,
 .flower-type:hover {
-    display: flex;
+  display: flex;
 }
 
 .flower-type p:hover {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .plant-type {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-    width: 130px;
-    min-height: 200px;
-    position: absolute;
-    top: 68px;
-    right: 195px;
-    background-color: white;
-    padding: 12px 16px;
-    cursor: pointer;
-    transition-duration: 0.6s;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  width: 130px;
+  min-height: 200px;
+  position: absolute;
+  top: 68px;
+  right: 195px;
+  background-color: white;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition-duration: 0.6s;
 }
 
 .plant-item:hover .plant-type,
 .plant-type:hover {
-    display: flex;
+  display: flex;
 }
 
 .plant-type p:hover {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
-
 main {
-    background-color: #e6e6e675;
+  background-color: #e6e6e675;
 }
 
 .mainContent {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 0 0 70px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0 0 70px;
 }
 
 .mainContent img {
-    width: 60%;
-    height: 87vh;
+  width: 60%;
+  height: 87vh;
 }
 
 .mainContent h2 {
-    color: #ff1456;
-    font-size: 32px;
-    font-family: YekanBakhHeavy;
+  color: #ff1456;
+  font-size: 36px;
+  font-family: YekanBakhHeavy;
 }
 
 .mainContent h4 {
-    font-size: 24px;
-    color: darkgreen;
-    margin: 26px 0;
+  font-size: 24px;
+  color: darkgreen;
+  margin: 26px 0;
 }
 
 #mainFlower-res {
-    display: none;
-    width: 100%;
-    height: 200px;
+  display: none;
+  width: 100%;
+  height: 200px;
 }
 
 .mainContent p {
-    font-size: 16px;
-    line-height: 34px;
-    word-spacing: 3px;
-    margin-bottom: 58px;
+  font-size: 16px;
+  line-height: 34px;
+  word-spacing: 3px;
+  margin-bottom: 58px;
 }
 
 .mainContent a {
-    color: azure;
-    background-color: #E4830C;
-    padding: 8px 12px;
-    border: 2px groove #ff8c0083;
-    border-radius: 12px;
-    box-shadow: -1px 2px 5px #A5A5A5;
-    transition: 0.5s;
+  color: azure;
+  background-color: #e4830c;
+  padding: 8px 12px;
+  border: 2px groove #ff8c0083;
+  border-radius: 12px;
+  box-shadow: -1px 2px 5px #a5a5a5;
+  transition: 0.5s;
 }
 
 .mainContent a:hover {
-    color: #E4830C;
-    background: azure;
-    font-weight: bold;
-    border: 2px groove #FFCFAF;
+  color: #e4830c;
+  background: azure;
+  font-weight: bold;
+  border: 2px groove #ffcfaf;
 }
 
 /********** flowers type section **********/
 
 .flowertype-products {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
-    margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin-top: 90px;
 }
 
 .flowertype-products h3 {
-    font-size: 28px;
-    text-align: center;
-    padding-bottom: 8px;
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 8px;
 }
 
 .flowertype-products p {
-    color: #333;
-    text-align: center; 
-    padding-top: 14px;
+  color: #333;
+  text-align: center;
+  padding-top: 14px;
 }
 
 .flowerProduct {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 30px;
 }
 
 .flowerProduct a {
-    overflow: hidden;
-    border-radius: 10px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .flowerProduct img {
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px #9B9B9B;
-    transition-duration: 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px #9b9b9b;
+  transition-duration: 0.5s;
 }
 
-.flowerProduct a:hover img{
-    transform: scale(1.08);
+.flowerProduct a:hover img {
+  transform: scale(1.08);
 }
-
 
 /************ Sale special flowers section ************/
 
 .special-flowersSection {
-    position: relative;
-    margin: 185px 0 100px;
-    /* height: 91vh; */
-    height: 94vh;
-    background: url('../Images/blank-elegant-floral-frame-design.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  position: relative;
+  margin: 185px 0 100px;
+  /* height: 91vh; */
+  height: 94vh;
+  background: url("../Images/blank-elegant-floral-frame-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .saleFlowersOverlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    background-color: #fcf1ee;
-    opacity: 0.4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #fcf1ee;
+  opacity: 0.4;
 }
 
 .saleFlowers {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding-top: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 55px;
 }
 
 .saleFlowers p {
-    font-size: 26px;
-    font-weight: 600;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .flowerProducts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
 }
 
 .flowerProducts .product {
-    width: 200px;
-    min-height: 310px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0px 2px #A7A7A7;
-    transition-duration: 400ms;
+  width: 200px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0px 2px #a7a7a7;
+  transition-duration: 400ms;
 }
 
 .product img {
-    border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .product-content {
-    padding: 0 8px 12px;
+  padding: 0 8px 12px;
 }
 
 .product h4 {
-    font-size: 18px;
-    color: #2b2b2b;
-    margin-bottom: 28px;
+  font-size: 18px;
+  color: #2b2b2b;
+  margin-bottom: 28px;
 }
 
 .price {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .price .discount {
-    font-size: 13px;
-    color: #2b2b2b;
-    background-color: #ffd992;
-    border-radius: 20px;
-    padding: 5px 4px 2px;
-    box-shadow: 0 0 8px #D4D4D4;
+  font-size: 13px;
+  color: #2b2b2b;
+  background-color: #ffd992;
+  border-radius: 20px;
+  padding: 5px 4px 2px;
+  box-shadow: 0 0 8px #d4d4d4;
 }
 
 .price div p {
-    font-size: 16px;
-    color: #b40033;
+  font-size: 16px;
+  color: #b40033;
 }
 
 .price div span {
-    font-size: 13px;
-    color: #575757;
-    text-decoration: line-through;
+  font-size: 13px;
+  color: #575757;
+  text-decoration: line-through;
 }
 
 .show-products {
-    position: relative;
+  position: relative;
 }
 
 .saleFlowers .slider-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 38px;
-    height: 38px;
-    background-color: #fff;
-    border: 0 solid transparent;
-    border-radius: 100%;
-    box-shadow: 0 1px 2px #B9B9B9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border: 0 solid transparent;
+  border-radius: 100%;
+  box-shadow: 0 1px 2px #b9b9b9;
 }
 
 .slider-arrow-right {
-    position: absolute;
-    top: 43%;
-    right: -20px;
+  position: absolute;
+  top: 43%;
+  right: -20px;
 }
 
 .slider-arrow-left {
-    position: absolute;
-    bottom: 45%;
-    left: -20px;
+  position: absolute;
+  bottom: 45%;
+  left: -20px;
 }
 
 .flowerProducts .product:hover {
-    box-shadow: 0px 4px 1px #ff4d7f62,
-    0 0px 6px #A7A7A7;
+  box-shadow: 0px 4px 1px #ff4d7f62, 0 0px 6px #a7a7a7;
 }
-
 
 /***************** plants type section *****************/
 
 .planttype-products {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
 }
 
 .planttype-products h3 {
-    font-size: 28px;
-    padding-bottom: 8px;
-    text-align: center;
+  font-size: 28px;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 .planttype-products p {
-    color: #333;
-    padding-top: 14px;
-    text-align: center;
+  color: #333;
+  padding-top: 14px;
+  text-align: center;
 }
 
 .plantProduct {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px 60px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 60px;
+  text-align: center;
 }
 
 .plantProduct a {
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #D3F8D3;
-    border-radius: 10px;
-    transition: background-color 0.4s, transform 0.4s;
-    box-shadow: 0px 0px 5px #5CAA5C;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d3f8d3;
+  border-radius: 10px;
+  transition: background-color 0.4s, transform 0.4s;
+  box-shadow: 0px 0px 5px #5caa5c;
 }
 
 .plantProduct p {
-    color: black;    
-    font-size: 19px;
+  color: black;
+  font-size: 19px;
 }
 
 .plantProduct a:hover {
-    transform: scale(1.04);
-    background-color: #b6ffb6;
+  transform: scale(1.04);
+  background-color: #b6ffb6;
 }
-
 
 /************** Sale special plants section ***************/
 
 .special-plantsSection {
-    position: relative;
-    height: 94vh;
-    background: url('../Images/green-leaves.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    margin: 185px 0 165px;
+  position: relative;
+  height: 94vh;
+  background: url("../Images/green-leaves.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 185px 0 165px;
 }
 
 .salePlantsOverlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    background-color: #fffce9;
-    opacity: 0.4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #fffce9;
+  opacity: 0.4;
 }
 
 .salePlants {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding-top: 55px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 55px;
 }
 
 .salePlants p {
-    font-size: 26px;
-    font-weight: 600;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .plantProducts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
 }
 
 .plantProducts .product {
-    width: 200px;
-    min-height: 310px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 8px;
-    transition-duration: 400ms;
-    box-shadow: 0 0px 2px #A7A7A7;
+  width: 200px;
+  min-height: 310px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  transition-duration: 400ms;
+  box-shadow: 0 0px 2px #a7a7a7;
 }
 
 .product img {
-    border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .product-content {
-    padding: 0 8px 12px;
+  padding: 0 8px 12px;
 }
 
 .product h4 {
-    font-size: 18px;
-    color: #2b2b2b;
-    margin-bottom: 28px;
+  font-size: 18px;
+  color: #2b2b2b;
+  margin-bottom: 28px;
 }
 
 .price {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .price .discount {
-    font-size: 13px;
-    color: #2b2b2b;
-    background-color: #ffd992;
-    border-radius: 20px;
-    padding: 5px 4px 2px;
-    box-shadow: 0 0 8px #D4D4D4; 
+  font-size: 13px;
+  color: #2b2b2b;
+  background-color: #ffd992;
+  border-radius: 20px;
+  padding: 5px 4px 2px;
+  box-shadow: 0 0 8px #d4d4d4;
 }
 
 .plantProducts .price div p {
-    font-size: 16px;
-    color: #007706;
+  font-size: 16px;
+  color: #007706;
 }
 
 .price div span {
-    font-size: 13px;
-    color: #575757;
-    text-decoration: line-through;
+  font-size: 13px;
+  color: #575757;
+  text-decoration: line-through;
 }
 
 .show-products {
-    position: relative;
+  position: relative;
 }
 
 .salePlants .slider-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 38px;
-    height: 38px;
-    background-color: #fff;
-    border: 0 solid transparent;
-    border-radius: 100%;
-    box-shadow: 0 1px 2px #B9B9B9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border: 0 solid transparent;
+  border-radius: 100%;
+  box-shadow: 0 1px 2px #b9b9b9;
 }
 
 .slider-arrow-right {
-    position: absolute;
-    top: 43%;
-    right: -20px;
+  position: absolute;
+  top: 43%;
+  right: -20px;
 }
 
 .slider-arrow-left {
-    position: absolute;
-    bottom: 45%;
-    left: -20px;
+  position: absolute;
+  bottom: 45%;
+  left: -20px;
 }
 
 .plantProducts .product:hover {
-    box-shadow: 0px 4px 1px #53ff4d62,
-    0 0px 6px #A7A7A7;
+  box-shadow: 0px 4px 1px #53ff4d62, 0 0px 6px #a7a7a7;
 }
-
 
 /************** knowledge blog section **************/
 
 .blogTitle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .blogTitle h3 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .blogTitle p {
-    color: #333;
-    padding-top: 14px;
-    text-align: center;
+  color: #333;
+  padding-top: 14px;
+  text-align: center;
 }
 
 .blogTitle a {
-    display: flex;
-    align-items: start;
-    gap: 4px;
-    font-size: 18px;
-    color: #2d7902;
+  display: flex;
+  align-items: start;
+  gap: 4px;
+  font-size: 18px;
+  color: #2d7902;
 }
 
 .aboutBlog {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 .blogItem {
-    max-width: 350px;
-    border-radius: 6px;
-    box-shadow: 0 0 6px #D4D4D4;
+  max-width: 350px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px #d4d4d4;
 }
 
 .blogItem img {
-    width: 350px;
-    height: 200px;
-    border-radius: 6px 6px 0 0;
-    margin-bottom: 10px;
+  width: 350px;
+  height: 200px;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 10px;
 }
 
 .blog-info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 0 14px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 14px 24px;
 }
 
 .blog-info div {
-    text-align: left;
+  text-align: left;
 }
 
 .blog-info a {
-    color: green;
-    background-color: #fff;
-    padding: 4px 24px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px #D4D4D4;
-    transition-duration: 600ms;
+  color: green;
+  background-color: #fff;
+  padding: 4px 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #d4d4d4;
+  transition-duration: 600ms;
 }
 
 .blogTitle a:hover {
-    color: #399b00;
+  color: #399b00;
 }
 
 .blog-info a:hover {
-    color: white;
-    background-color: green;
+  color: white;
+  background-color: green;
 }
-
 
 /************** services section *************/
 
 .aboutServices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 190px 0 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 190px 0 210px;
 }
 
 .service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .service img {
-    width: 120px;
-    margin-bottom: 14px;
+  width: 120px;
+  margin-bottom: 14px;
 }
 
 .service p {
-    font-size: 14px;
-    word-spacing: 2px;
-    margin-top: 8px;
+  font-size: 14px;
+  word-spacing: 2px;
+  margin-top: 8px;
 }
 
 .vLine {
-    width: 0.5px;
-    height: 180px;
-    background-color: #e085a8;
+  width: 0.5px;
+  height: 180px;
+  background-color: #e085a8;
 }
-
 
 /************** about footer section *************/
 
 .footerSection {
-    position: relative;
-    background: url('../Images/footer-flower-background.jpg');
-    background-size: cover;
-    height: fit-content;
+  position: relative;
+  background: url("../Images/footer-flower-background.jpg");
+  background-size: cover;
+  height: fit-content;
 }
 
 .footerSection #right-site {
-    text-align: center;
-    color: white !important;
-    font-size: 13px;
-    word-spacing: 3px;
-    padding: 20px 16px;
+  text-align: center;
+  color: white !important;
+  font-size: 13px;
+  word-spacing: 3px;
+  padding: 20px 16px;
 }
 
 .footerOverlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    background-color: #000000;
-    opacity: 0.85;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #000000;
+  opacity: 0.85;
 }
 
 .footerSection .container {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .aboutFooter {
-    display: flex;
-    justify-content: space-between;
-    gap: 80px;
-    padding: 60px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .footer-links {
-    display: flex;
-    gap: 80px;
+  display: flex;
+  gap: 80px;
 }
 
 .footer-links div:first-child {
-    flex: 1;
-    max-width: 370px;
+  flex: 1;
+  max-width: 370px;
 }
 
-.footer-links p, a {
-    color: #b6b6b6;
-    font-size: 15px;
+.footer-links p,
+a {
+  color: #b6b6b6;
+  font-size: 15px;
 }
 
-.footer-links h4, .social-media p {
-    padding-bottom: 18px;
-    color: white;
-    font-size: 18px;
+.footer-links h4,
+.social-media p {
+  padding-bottom: 18px;
+  color: white;
+  font-size: 18px;
 }
 
 .social-media div {
-    display: flex;
-    align-items: end;
-    gap: 25px;
+  display: flex;
+  align-items: end;
+  gap: 25px;
 }
 
 .social-media a {
-    background-color: white;
-    padding: 8px 10px 0;
-    border-radius: 9999px;
-    outline-style: solid;
-    outline-width: 1px;
-    outline-offset: 1px;
-    transition: 500ms;
+  background-color: white;
+  padding: 8px 10px 0;
+  border-radius: 9999px;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-offset: 1px;
+  transition: 500ms;
 }
 
 .footer-links a:hover {
-    color: #ff1456;
-    transition: 300ms;
+  color: #ff1456;
+  transition: 300ms;
 }
 
 .social-media a:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .social-media a:first-child:hover {
-    background: linear-gradient(to top right, #fdf497 10%, #db2777  60%, #285AEB 90%);
+  background: linear-gradient(
+    to top right,
+    #fdf497 10%,
+    #db2777 60%,
+    #285aeb 90%
+  );
 }
 
 .social-media a:nth-child(2):hover {
-    background-color: #1D9BF0;
+  background-color: #1d9bf0;
 }
 
 .social-media a:nth-child(3):hover {
-    background-color: #C0C0C0;
+  background-color: #c0c0c0;
 }
 
 .social-media a:last-child:hover {
-    background-color: #0A66C2;
+  background-color: #0a66c2;
 }
-
 
 .buttonToUp {
-    position: absolute;
-    z-index: 2;
-    width: fit-content;
-    height: fit-content;
-    position: fixed;
-    bottom: 20px;
-    left: 24px;
-    display: flex;
-    align-items: center;
-    background-color: #ff1457e8;
-    border-radius: 50%;
-    padding: 6px;
-    box-shadow: 0 0 4px gray;
+  position: absolute;
+  z-index: 2;
+  width: fit-content;
+  height: fit-content;
+  position: fixed;
+  bottom: 20px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  background-color: #ff1457e8;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 0 4px gray;
 }
-
-
 
 /************* Responsive Styles *************/
 
 @media only screen and (max-width: 1199px) {
-    .headerMenu {
-        gap: 30px;
-    }
-    .headerMenu .menus {
-        gap: 20px;
-    }
-    .menus li a {
-        font-size: 15.5px;
-    }
-    .header-content .headerButton {
-        gap: 10px;
-    }
-    .mainContent h4 {
-        margin: 18px 0;
-    }
-    .mainContent p {
-        margin-bottom: 50px;
-    }
-    .flowerProduct {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px 35px;
-    }
-    .flowerProducts .product:last-child{
-        display: none;
-    }
-    .special-flowersSection {
-        height: 100vh;
-    }
-    .saleFlowers {
-        padding-top: 40px;
-    }
-    .plantProduct {
-        gap: 40px 30px;
-    }
-    .plantProducts .product:last-child {
-        display: none;
-    }
-    .special-plantsSection {
-        height: 100vh;
-    }
-    .salePlants {
-        padding-top: 40px;
-    }
-    .blogTitle {
-        padding: 0 16px;
-    }
-    .aboutBlog {
-        flex-wrap: wrap;
-    }
-    .aboutFooter {
-        padding: 60px 26px;
-        justify-content: start;
-        gap: 30px;
-    }
-    .footer-links {
-        gap: 40px;
-    }
+  .headerMenu {
+    gap: 30px;
+  }
+  .headerMenu .menus {
+    gap: 20px;
+  }
+  .menus li a {
+    font-size: 15.5px;
+  }
+  .header-content .headerButton {
+    gap: 10px;
+  }
+  .mainContent h4 {
+    margin: 18px 0;
+  }
+  .mainContent p {
+    margin-bottom: 50px;
+  }
+  .flowerProduct {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 35px;
+  }
+  .flowerProducts .product:last-child {
+    display: none;
+  }
+  .special-flowersSection {
+    height: 100vh;
+  }
+  .saleFlowers {
+    padding-top: 40px;
+  }
+  .plantProduct {
+    gap: 40px 30px;
+  }
+  .plantProducts .product:last-child {
+    display: none;
+  }
+  .special-plantsSection {
+    height: 100vh;
+  }
+  .salePlants {
+    padding-top: 40px;
+  }
+  .blogTitle {
+    padding: 0 16px;
+  }
+  .aboutBlog {
+    flex-wrap: wrap;
+  }
+  .aboutFooter {
+    padding: 60px 26px;
+    justify-content: start;
+    gap: 30px;
+  }
+  .footer-links {
+    gap: 40px;
+  }
 }
 
 @media only screen and (max-width: 994px) {
-    .container-fluid {
-        padding: 0 16px;
-    }
-    .header-content {
-        display: block;
-    }
-    .headerMenu nav,
-    .header-content .headerButton {
-        display: none;
-    }
-    .hamburgerMenu {
-        display: flex;
-    }
-    .mainContent {
-        padding: 20px 0 0 30px;
-    }
-    .mainContent img {
-        width: 50%;
-    }
-    .mainContent h2 {
-        font-size: 30px;
-    }
-    .flowerProduct {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px 55px;
-    }
-    .flowerProducts .product:nth-child(4) {
-        display: none;
-    }
-    .plantProduct {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px 65px;
-    }
-    .plantProducts .product:nth-child(4) {
-        display: none;
-    }
-    .aboutFooter, .footer-links {
-        flex-wrap: wrap;
-        gap: 80px;
-    }
-    .footer-links div:first-child {
-        flex: none;
-    }
+  .container-fluid {
+    padding: 0 16px;
+  }
+  .header-content {
+    display: block;
+  }
+  .headerMenu nav,
+  .header-content .headerButton {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: flex;
+  }
+  .mainContent {
+    padding: 20px 0 0 30px;
+  }
+  .mainContent h2 {
+    font-size: 34px;
+  }
+  .mainContent img {
+    width: 50%;
+  }
+  .flowerProduct {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 55px;
+  }
+  .flowerProducts .product:nth-child(4) {
+    display: none;
+  }
+  .plantProduct {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 65px;
+  }
+  .plantProducts .product:nth-child(4) {
+    display: none;
+  }
+  .aboutFooter,
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .footer-links div:first-child {
+    flex: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .mainContent {
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 88px 30px 40px;
-    }
-    .mainContent img {
-        width: 80%;
-    }
-    .mainContent h2 {
-        font-size: 32px;
-    }
-    .flowerProducts .product:nth-child(3) {
-        display: none;
-    }
-    .plantProduct {
-        gap: 40px 22px;
-    }
-    .plantProduct a {
-        width: 275px;
-    }
-    .plantProducts .product:nth-child(3) {
-        display: none;
-    }
-    .aboutBlog {
-        gap: 40px;
-    }
-    .aboutServices {
-        flex-wrap: wrap;
-    }
-    .aboutServices .vLine:nth-child(4) {
-        display: none;
-    }
-    
+  .mainContent {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 88px 30px 40px;
+  }
+  .mainContent img {
+    width: 80%;
+  }
+  .mainContent h2 {
+    font-size: 38px;
+  }
+  .flowerProducts .product:nth-child(3) {
+    display: none;
+  }
+  .plantProduct {
+    gap: 40px 22px;
+  }
+  .plantProduct a {
+    width: 275px;
+  }
+  .plantProducts .product:nth-child(3) {
+    display: none;
+  }
+  .aboutBlog {
+    gap: 40px;
+  }
+  .aboutServices {
+    flex-wrap: wrap;
+  }
+  .aboutServices .vLine:nth-child(4) {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 578px) {
-    .mainContent {
-        text-align: center;
-    }
-    .mainContent img {
-        display: none;
-    }
-    #mainFlower-res {
-        display: block;
-        padding-bottom: 16px;
-    }
-    .flowerProduct {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px 20px;
-    }
-    .flowerProducts .product:nth-child(2) {
-        display: none;
-    }
-    .plantProduct {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 40px 60px;
-    }
-    .plantProducts .product:nth-child(2) {
-        display: none;
-    }
-    .aboutServices {
-        flex-direction: column;
-        gap: 0;
-    }
-    .aboutServices .vLine:nth-child(4) {
-        display: block;
-    }
-    .vLine {
-        transform: rotate(90deg);
-    }
-
+  .mainContent {
+    text-align: center;
+  }
+  .mainContent img {
+    display: none;
+  }
+  #mainFlower-res {
+    display: block;
+    padding-bottom: 16px;
+  }
+  .flowerProduct {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px 20px;
+  }
+  .flowerProducts .product:nth-child(2) {
+    display: none;
+  }
+  .plantProduct {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px 60px;
+  }
+  .plantProducts .product:nth-child(2) {
+    display: none;
+  }
+  .aboutServices {
+    flex-direction: column;
+    gap: 0;
+  }
+  .aboutServices .vLine:nth-child(4) {
+    display: block;
+  }
+  .vLine {
+    transform: rotate(90deg);
+  }
 }
 
-@media  only screen and (max-width: 425px) {
-    .mainContent h2 {
-        font-size: 28px;
-    }
-    .mainContent p {
-        line-height: 31px;
-    }
-    .blogTitle h3 {
-        font-size: 22px;
-    }
-    .blogTitle p {
-        font-size: 14px;
-    }
-    .blogTitle a {
-        font-size: 15px;
-        gap: 0;
-    }
-    .blogItem {
-        width: 270px;
-    }
-    .blogItem img {
-        width: 270px;
-    }
-    .footer-links div:first-child {
-        width: 250px;
-    }
+@media only screen and (max-width: 425px) {
+  .mainContent p {
+    line-height: 31px;
+  }
+  .blogTitle h3 {
+    font-size: 22px;
+  }
+  .blogTitle p {
+    font-size: 14px;
+  }
+  .blogTitle a {
+    font-size: 15px;
+    gap: 0;
+  }
+  .blogItem {
+    width: 270px;
+  }
+  .blogItem img {
+    width: 270px;
+  }
+  .footer-links div:first-child {
+    width: 250px;
+  }
 }

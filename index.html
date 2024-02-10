@@ -1,518 +1,653 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="Yalda Khoshbahar">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content="" >
+    <meta name="author" content="Yalda Khoshbahar"/>
     <title>گلکده یلدایی</title>
-    <link rel="shortcut icon" href="./Images/Logo.png">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="shortcut icon" href="./Images/Logo.png"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide"/>
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide"/>
+  </head>
 
-<body id="buttonToUpUrl">
+  <body id="buttonToUpUrl">
     <header>
-        <div class="container-fluid header-content">
-            <div class="headerMenu">
-                <div class="headerLogo">
-                    <img src="./Images/Logo.png" width="20" alt="logo">
-                    <h2>گلکده ی یلدایی</h2> 
-                </div>
-                <!-- hamburger menu in responsive -->
-                <div class="hamburgerMenu">
-                    <button>
-                        <img src="./Images/hamburger-menu.svg" alt="hamburger menu icon">
-                    </button>
-                </div>
+      <div class="container-fluid header-content">
+        <div class="headerMenu">
+          <div class="headerLogo">
+            <img src="./Images/Logo.png" width="20" alt="logo"/>
+            <h2>گلکده ی یلدایی</h2>
+          </div>
+          <!-- hamburger menu in responsive -->
+          <div class="hamburgerMenu">
+            <button>
+              <img
+                src="./Images/hamburger-menu.svg"
+                alt="hamburger menu icon"
+              />
+            </button>
+          </div>
 
-                <nav>
-                    <ul class="menus">
-                        <li>
-                            <a href="#">خانه</a>
-                        </li>
-                        <li class="more-menu">
-                            <a href="#" class="menu-items">دسته بندی محصولات
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d"  fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 9l6 6l6 -6"/></svg>
-                            </a>
-                            <div class="product-children">
-                                <div>
-                                    <div class="dropdown-arrow"></div>
-                                    <a href="#" class="flower-item">
-                                        <div class="child-items">
-                                            <img src="./Images/flower-icon.svg" alt="flower icon">
-                                            <p>انواع گل ها</p>  
-                                        </div>
-                                        <img src="./Images/left-arrow.svg" alt="left arrow">
-                                        <div class="flower-type">
-                                            <div class="dropleft-arrow"></div>
-                                            <p>گل رز</p>
-                                            <p>گل لاله</p>
-                                            <p>گل آفتابگردان</p>
-                                            <p>گل بنفشه</p>
-                                            <p>گل عروس</p>
-                                            <p>گل صد تومن</p>    
-                                            <p>گل ارکیده</p>
-                                            <p>گل کوکب</p>
-                                            <p>گل آنتوریوم</p>
-                                            <p>گل لیلیوم</p>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="plant-item">
-                                        <div class="child-items">
-                                            <img src="./Images/plant-icon.svg" alt="plant icon">
-                                            <p>انواع گیاهان</p> 
-                                        </div>
-                                        <img src="./Images/left-arrow.svg" alt="left arrow">
-                                        <div class="plant-type">
-                                            <div class="dropleft-arrow"></div>
-                                            <p>کاکتوس</p>
-                                            <p>سانسوریا</p>
-                                            <p>پتوس</p>
-                                            <p>سفید برفی</p>
-                                            <p>آگلونما</p>
-                                            <p>برگ انجیری</p>
-                                            <p>حسن یوسف</p>
-                                            <p>پوینستیا </p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">نکات مراقبتی گل و گیاه</a>
-                        </li>
-                        <li>
-                            <a href="#">وبلاگ ما</a>
-                        </li>
-                        <li>
-                            <a href="#">ارتباط با ما</a>
-                        </li> 
-                    </ul>
-                </nav>
-            </div>
-            <div class="headerButton">
-                <a href="#">
-                    <img src="./Images/search-icon.svg" alt="search icon">
+          <nav>
+            <ul class="menus">
+              <li>
+                <a href="#">خانه</a>
+              </li>
+              <li class="more-menu">
+                <a href="#" class="menu-items"
+                  >دسته بندی محصولات
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-chevron-down"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#597e8d"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9l6 6l6 -6"/>
+                  </svg>
                 </a>
-                <a href="#">
-                    <img src="./Images/cart-icon.svg" alt="cart icon">
-                </a>
-                <a href="#">ثبت نام <span id="line">|</span> ورود</a>
-            </div>
+                <div class="product-children">
+                  <div>
+                    <div class="dropdown-arrow"></div>
+                    <a href="#" class="flower-item">
+                      <div class="child-items">
+                        <img src="./Images/flower-icon.svg" alt="flower icon"/>
+                        <p>انواع گل ها</p>
+                      </div>
+                      <img src="./Images/left-arrow.svg" alt="left arrow"/>
+                      <div class="flower-type">
+                        <div class="dropleft-arrow"></div>
+                        <p>گل رز</p>
+                        <p>گل لاله</p>
+                        <p>گل آفتابگردان</p>
+                        <p>گل بنفشه</p>
+                        <p>گل عروس</p>
+                        <p>گل صد تومن</p>
+                        <p>گل ارکیده</p>
+                        <p>گل کوکب</p>
+                        <p>گل آنتوریوم</p>
+                        <p>گل لیلیوم</p>
+                      </div>
+                    </a>
+                    <a href="#" class="plant-item">
+                      <div class="child-items">
+                        <img src="./Images/plant-icon.svg" alt="plant icon"/>
+                        <p>انواع گیاهان</p>
+                      </div>
+                      <img src="./Images/left-arrow.svg" alt="left arrow"/>
+                      <div class="plant-type">
+                        <div class="dropleft-arrow"></div>
+                        <p>کاکتوس</p>
+                        <p>سانسوریا</p>
+                        <p>پتوس</p>
+                        <p>سفید برفی</p>
+                        <p>آگلونما</p>
+                        <p>برگ انجیری</p>
+                        <p>حسن یوسف</p>
+                        <p>پوینستیا</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#">نکات مراقبتی گل و گیاه</a>
+              </li>
+              <li>
+                <a href="#">وبلاگ ما</a>
+              </li>
+              <li>
+                <a href="#">ارتباط با ما</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+        <div class="headerButton">
+          <a href="#">
+            <img src="./Images/search-icon.svg" alt="search icon"/>
+          </a>
+          <a href="#">
+            <img src="./Images/cart-icon.svg" alt="cart icon"/>
+          </a>
+          <a href="#">ثبت نام <span id="line">|</span> ورود</a>
+        </div>
+      </div>
     </header>
     <!-- main content section -->
     <main>
-        <div class="mainContent">
-            <img src="./Images/Gathering Flowers.gif" alt="main image">
-            <div>
-                <div>
-                    <h2> فروشگاه اینترنتی گلکده یلدایی </h2>
-                    <h4> بهترین هدیه برای عزیزان </h4>
-                    <img id="mainFlower-res" src="./Images/Gathering Flowers(responsive).gif" alt="main responsive image">
-                    <p>گلکده یلدایی ارائه دهنده آنلاین انواع گلهای طبیعی و مصنوعی و آپارتمانی که بازاری است برای همه دوستداران گل و گیاه با هدیه دادن گل ،لذت بردن از زیبایی را با یکدیگر تقسیم کنیم.
-                    </p>
-                    <a href="#">سفارش خرید</a>
-                </div>
-            </div>
+      <div class="mainContent">
+        <img src="./Images/Gathering Flowers.gif" alt="main image"/>
+        <div>
+          <div>
+            <h2>فروشگاه اینترنتی گلکده یلدایی</h2>
+            <h4>بهترین هدیه برای عزیزان</h4>
+            <img
+              id="mainFlower-res"
+              src="./Images/Gathering Flowers(responsive).gif"
+              alt="main responsive image"
+            />
+            <p>
+              گلکده یلدایی ارائه دهنده آنلاین انواع گلهای طبیعی و مصنوعی و
+              آپارتمانی که بازاری است برای همه دوستداران گل و گیاه با هدیه دادن
+              گل ،لذت بردن از زیبایی را با یکدیگر تقسیم کنیم.
+            </p>
+            <a href="#">سفارش خرید</a>
+          </div>
         </div>
+      </div>
     </main>
     <!-- type of flowers section -->
     <section class="container">
-        <div class="flowertype-products">
-            <div>
-                <h3>انواع محصولات گل ها</h3>
-                <hr>
-                <p>برای هدیه دادن در مناسبت های خاص</p>
-            </div>
-            <div class="flowerProduct">
-                <a href="#">
-                    <img src="./Images/دسته-گل.jpg_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/باکس-گل_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/سبد-گل_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/تاج-گل_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/جام-گل_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/هدیه و کادویی_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/باکس-شکلات_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-                <a href="#">
-                    <img src="./Images/رز-جاودان_auto_x2.jpg" width="260" alt="flower type image">
-                </a>
-            </div>
+      <div class="flowertype-products">
+        <div>
+          <h3>انواع محصولات گل ها</h3>
+          <hr />
+          <p>برای هدیه دادن در مناسبت های خاص</p>
         </div>
+        <div class="flowerProduct">
+          <a href="#">
+            <img
+              src="./Images/دسته-گل.jpg_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/باکس-گل_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/سبد-گل_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/تاج-گل_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/جام-گل_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/هدیه و کادویی_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/باکس-شکلات_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./Images/رز-جاودان_auto_x2.jpg"
+              width="260"
+              alt="flower type image"
+            />
+          </a>
+        </div>
+      </div>
     </section>
     <!-- flower sales section -->
     <section class="special-flowersSection">
-        <div class="saleFlowersOverlay"></div>
-        <div class="saleFlowers">
-            <div>
-                <p>پیشنهاد ویژه ما</p>
-            </div>
-            <div class="show-products">
-                <button class="slider-arrow slider-arrow-right">
-                    <img src="./Images/right-arrow(pink).svg" alt="right arrow">
-                </button>
-                <div class="flowerProducts">
-                    <a href="#" class="product">
-                        <img src="./Images/دسته گل 20 شاخه با عروس.jpg" height="200" alt="product image">
-                        <div class="product-content">
-                            <h4>دسته گل با ۲۰ شاخه عروس</h4>
-                            <div class="price">
-                                <p class="discount">%۱۵</p>
-                                <div>
-                                    <p>۶,۸۵۰,۰۰۰ ریال</p>
-                                    <span>۸,۰۰۰,۰۰۰ریال</span>  
-                                </div> 
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/جام گل عشق.jpg" height="200" alt="product image">
-                        <div class="product-content">
-                            <h4>جام گل عشق</h4>
-                            <div class="price">
-                                <p class="discount">%۴۸</p>
-                                <div>
-                                    <p>۱۸,۰۰۰,۰۰۰ ریال</p>
-                                    <span>۳۵,۰۰۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/دسته گل مانلی.jpg" alt="product image">
-                        <div class="product-content">
-                            <h4>دسته گل مانلی</h4>
-                            <div class="price">
-                                <p class="discount">%۲۵</p>
-                                <div>
-                                    <p>۴,۵۰۰,۰۰۰ ریال</p>
-                                    <span>۶,۰۰۰,۰۰۰ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/باکس گل لوکاس.jpg" alt="product image">
-                        <div class="product-content">
-                            <h4>باکس گل لوکاس</h4>
-                            <div class="price">
-                                <p class="discount">%۴۰</p>
-                                <div>
-                                    <p>۵,۳۰۰,۰۰۰ ریال</p>
-                                    <span>۸,۶۷۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/دسته گل رز سفید و صورتی 40 شاخه.jpg" alt="product image">
-                        <div class="product-content">
-                            <h4>دسته گل رز سفید و صورتی</h4>
-                            <div class="price">
-                                <p class="discount">%۲۳</p>
-                                <div>
-                                    <p>۲,۷۰۰,۰۰۰ ریال</p>
-                                    <span>۳,۵۰۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-                </div>
-                <button class="slider-arrow slider-arrow-left">
-                    <img src="./Images/left-arrow(pink).svg" alt="left arrow">
-                </button>
-            </div>
+      <div class="saleFlowersOverlay"></div>
+      <div class="saleFlowers">
+        <div>
+          <p>پیشنهاد ویژه ما</p>
         </div>
+        <div class="show-products">
+          <button class="slider-arrow slider-arrow-right">
+            <img src="./Images/right-arrow(pink).svg" alt="right arrow"/>
+          </button>
+          <div class="flowerProducts">
+            <a href="#" class="product">
+              <img
+                src="./Images/دسته گل 20 شاخه با عروس.jpg"
+                height="200"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>دسته گل با ۲۰ شاخه عروس</h4>
+                <div class="price">
+                  <p class="discount">%۱۵</p>
+                  <div>
+                    <p>۶,۸۵۰,۰۰۰ ریال</p>
+                    <span>۸,۰۰۰,۰۰۰ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img
+                src="./Images/جام گل عشق.jpg"
+                height="200"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>جام گل عشق</h4>
+                <div class="price">
+                  <p class="discount">%۴۸</p>
+                  <div>
+                    <p>۱۸,۰۰۰,۰۰۰ ریال</p>
+                    <span>۳۵,۰۰۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img src="./Images/دسته گل مانلی.jpg" alt="product image"/>
+              <div class="product-content">
+                <h4>دسته گل مانلی</h4>
+                <div class="price">
+                  <p class="discount">%۲۵</p>
+                  <div>
+                    <p>۴,۵۰۰,۰۰۰ ریال</p>
+                    <span>۶,۰۰۰,۰۰۰ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img src="./Images/باکس گل لوکاس.jpg" alt="product image"/>
+              <div class="product-content">
+                <h4>باکس گل لوکاس</h4>
+                <div class="price">
+                  <p class="discount">%۴۰</p>
+                  <div>
+                    <p>۵,۳۰۰,۰۰۰ ریال</p>
+                    <span>۸,۶۷۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img
+                src="./Images/دسته گل رز سفید و صورتی 40 شاخه.jpg"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>دسته گل رز سفید و صورتی</h4>
+                <div class="price">
+                  <p class="discount">%۲۳</p>
+                  <div>
+                    <p>۲,۷۰۰,۰۰۰ ریال</p>
+                    <span>۳,۵۰۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <button class="slider-arrow slider-arrow-left">
+            <img src="./Images/left-arrow(pink).svg" alt="left arrow"/>
+          </button>
+        </div>
+      </div>
     </section>
     <!-- type of plants section -->
     <section class="container">
-        <div class="planttype-products">
-            <div>
-                <h3>انواع محصولات گیاهان</h3>  
-                <hr>
-                <p>نگهداری گیاهان برای سبز ماندن خانه</p>
-            </div>
-            <div class="plantProduct">
-                <a href="#">
-                    <div>
-                        <p>انواع کاکتوس</p>  
-                    </div>
-                    <img src="./Images/cactous.png" alt="cactous image" width="100">
-                </a>
-                <a href="#">
-                    <div>
-                        <p>گیاهان آپارتمانی</p>  
-                    </div>
-                    <img src="./Images/home-plants.png" alt="" width="162">
-                </a>
-                <a href="#">
-                    <div>
-                        <p>گیاهان گلدار</p> 
-                    </div>
-                    <img src="./Images/flower-plants.png" alt="flower plants image" width="120">
-                </a>
-                <a href="#">
-                    <div>
-                        <p>گیا‌هان دارویی</p>  
-                    </div>
-                    <img src="./Images/medicinal-plants.png" alt="medicinal plants image" width="120">
-                </a>
-                <a href="#">
-                    <div>
-                        <p>سم و کود</p>  
-                    </div>
-                    <img src="./Images/poison & fertilizer.png" alt="medicinal plants image" width="120">
-                </a>
-                <a href="#">
-                    <div>
-                        <p>ابزارآلات باغبانی</p>  
-                    </div>
-                    <img src="./Images/gardening tools.png" alt="medicinal plants image" width="120">
-                </a>
-            </div>
+      <div class="planttype-products">
+        <div>
+          <h3>انواع محصولات گیاهان</h3>
+          <hr />
+          <p>نگهداری گیاهان برای سبز ماندن خانه</p>
         </div>
+        <div class="plantProduct">
+          <a href="#">
+            <div>
+              <p>انواع کاکتوس</p>
+            </div>
+            <img src="./Images/cactous.png" alt="cactous image" width="100"/>
+          </a>
+          <a href="#">
+            <div>
+              <p>گیاهان آپارتمانی</p>
+            </div>
+            <img src="./Images/home-plants.png" alt="" width="162"/>
+          </a>
+          <a href="#">
+            <div>
+              <p>گیاهان گلدار</p>
+            </div>
+            <img
+              src="./Images/flower-plants.png"
+              alt="flower plants image"
+              width="120"
+            />
+          </a>
+          <a href="#">
+            <div>
+              <p>گیا‌هان دارویی</p>
+            </div>
+            <img
+              src="./Images/medicinal-plants.png"
+              alt="medicinal plants image"
+              width="120"
+            />
+          </a>
+          <a href="#">
+            <div>
+              <p>سم و کود</p>
+            </div>
+            <img
+              src="./Images/poison & fertilizer.png"
+              alt="medicinal plants image"
+              width="120"
+            />
+          </a>
+          <a href="#">
+            <div>
+              <p>ابزارآلات باغبانی</p>
+            </div>
+            <img
+              src="./Images/gardening tools.png"
+              alt="medicinal plants image"
+              width="120"
+            />
+          </a>
+        </div>
+      </div>
     </section>
     <!-- plants sales section -->
     <section class="special-plantsSection">
-        <div class="salePlantsOverlay"></div>
-        <div class="salePlants">
-            <div>
-                <p>پیشنهاد ویژه ما</p>
-            </div>
-            <div class="show-products">
-                <button class="slider-arrow slider-arrow-right">
-                    <img src="./Images/right-arrow(green).svg" alt="right arrow">
-                </button>
-                <div class="plantProducts">
-                    <a href="#" class="product">
-                        <img src="./Images/pink-calla-lily-flower.jpg" height="200" alt="product image">
-                        <div class="product-content">
-                            <h4>گیاه سوسن صورتی گلدانی</h4>
-                            <div class="price">
-                                <p class="discount">%۳۵</p>
-                                <div>
-                                    <p>۱,۳۰۰,۰۰۰ ریال</p>
-                                    <span>۲,۰۰۰,۰۰۰ ریال</span>  
-                                </div> 
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/monstera-deliciosa-plant-pot.jpg" alt="product image">
-                        <div class="product-content">
-                            <h4>گیاه مونسترا</h4>
-                            <div class="price">
-                                <p class="discount">%۴۰</p>
-                                <div>
-                                    <p>۳,۰۰۰,۰۰۰ ریال</p>
-                                    <span>۵,۰۰۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/red-anthurium-plant-gray-pot.jpg" alt="product image" height="200">
-                        <div class="product-content">
-                            <h4>گیاه قرمز آنتوریوم</h4>
-                            <div class="price">
-                                <p class="discount">%۱۶</p>
-                                <div>
-                                    <p>۶,۹۰۰,۰۰۰ ریال</p>
-                                    <span>۸,۰۰۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/green-houseplant-isolated.jpg" alt="product image">
-                        <div class="product-content">
-                            <h4>گیاه آپارتمانی</h4>
-                            <div class="price">
-                                <p class="discount">%۳۱</p>
-                                <div>
-                                    <p>۴,۶۵۰,۰۰۰ ریال</p>
-                                    <span>۶,۶۷۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product">
-                        <img src="./Images/pink-plant-white-pot.jpg" alt="product image">
-                        <div class="product-content">
-                            <h4>گیاه صورتی</h4>
-                            <div class="price">
-                                <p class="discount">%۴۰</p>
-                                <div>
-                                    <p>۱,۸۰۰,۰۰۰ ریال</p>
-                                    <span>۳,۰۰۰,۰۰۰ ریال</span>  
-                                </div>
-                            </div>
-                        </div>
-                    </a> 
-                </div>
-                <button class="slider-arrow slider-arrow-left">
-                    <img src="./Images/left-arrow(green).svg" alt="left arrow">
-                </button>
-            </div>
+      <div class="salePlantsOverlay"></div>
+      <div class="salePlants">
+        <div>
+          <p>پیشنهاد ویژه ما</p>
         </div>
+        <div class="show-products">
+          <button class="slider-arrow slider-arrow-right">
+            <img src="./Images/right-arrow(green).svg" alt="right arrow"/>
+          </button>
+          <div class="plantProducts">
+            <a href="#" class="product">
+              <img
+                src="./Images/pink-calla-lily-flower.jpg"
+                height="200"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>گیاه سوسن صورتی گلدانی</h4>
+                <div class="price">
+                  <p class="discount">%۳۵</p>
+                  <div>
+                    <p>۱,۳۰۰,۰۰۰ ریال</p>
+                    <span>۲,۰۰۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img
+                src="./Images/monstera-deliciosa-plant-pot.jpg"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>گیاه مونسترا</h4>
+                <div class="price">
+                  <p class="discount">%۴۰</p>
+                  <div>
+                    <p>۳,۰۰۰,۰۰۰ ریال</p>
+                    <span>۵,۰۰۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img
+                src="./Images/red-anthurium-plant-gray-pot.jpg"
+                alt="product image"
+                height="200"
+              />
+              <div class="product-content">
+                <h4>گیاه قرمز آنتوریوم</h4>
+                <div class="price">
+                  <p class="discount">%۱۶</p>
+                  <div>
+                    <p>۶,۹۰۰,۰۰۰ ریال</p>
+                    <span>۸,۰۰۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img
+                src="./Images/green-houseplant-isolated.jpg"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>گیاه آپارتمانی</h4>
+                <div class="price">
+                  <p class="discount">%۳۱</p>
+                  <div>
+                    <p>۴,۶۵۰,۰۰۰ ریال</p>
+                    <span>۶,۶۷۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="product">
+              <img
+                src="./Images/pink-plant-white-pot.jpg"
+                alt="product image"
+              />
+              <div class="product-content">
+                <h4>گیاه صورتی</h4>
+                <div class="price">
+                  <p class="discount">%۴۰</p>
+                  <div>
+                    <p>۱,۸۰۰,۰۰۰ ریال</p>
+                    <span>۳,۰۰۰,۰۰۰ ریال</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <button class="slider-arrow slider-arrow-left">
+            <img src="./Images/left-arrow(green).svg" alt="left arrow"/>
+          </button>
+        </div>
+      </div>
     </section>
     <!-- weblog section -->
     <section class="container">
-        <div class="knowledgeSection">  
-            <div class="blogTitle">
-                <div>
-                    <h3>بلاگ گلکده یلدایی</h3>
-                    <hr>
-                    <p>دانستنی های دنیای گل و گیاه</p> 
-                </div>
-                <div>
-                    <a href="#">
-                        مشاهده همه
-                        <img src="./Images/left-arrow.svg" alt="left arrow">
-                    </a>
-                </div>
-            </div>
-            <div class="aboutBlog">
-                <div class="blogItem">
-                    <img src="./Images/گیاهان-آپارتمانی-در-دکور-خانه.jpg" alt="houseplants picture">
-                    <div class="blog-info">
-                        <h4>بهترین گیاهان آپارتمانی و مراقبت آسان</h4>
-                        <p>نگهداری گل و گیاه در منزل و آپارتمان، درظاهر کار سختی به‌نظر می‌رسد و تنوع گیاهانی که متناسب با شرایط آپارتمان‌ها باشند هم بسیار زیاد است. گیاهان آپارتمانی به فضای منزل‌تان سبزی و تازگی می‌بخشند و...
-                        </p>
-                        <div>
-                            <a href="#">بیشتر</a> 
-                        </div>
-                    </div>
-                </div>
-                <div class="blogItem">
-                    <img src="./Images/pothos-3.jpg" alt="pothos plant picture">
-                    <div class="blog-info">
-                        <h4>انواع پتوس؛ ۷ تا از بهترین و جذابترین واریته های پتوس</h4>
-                        <p>اگر به نگهداری گل و گیاه در منزل علاقه‌مندید و به دنبال گیاهی با شرایط نگهداری آسان و مراقبت کم و بی دردسر هستید ما به شما پتوس را پیشنهاد میدهیم ، پتوس گیاهی مقاوم است و...
-                        </p>
-                        <div>
-                            <a href="#">بیشتر</a> 
-                        </div>
-                    </div>
-                </div>
-                <div class="blogItem">
-                    <img src="./Images/trees-in-house.jpg" alt="house tree picture">
-                    <div class="blog-info">
-                        <h4>درختچه های آپارتمانی زیبا برای دکوراسیون منزل شما و نات مراقبتی از آنها</h4>
-                        <p>حضور گیاهان طبیعی در خانه همیشه باعث جریان یافتن روح زندگی در فضا می شوند. درختچه‌ها گونه‌ای از گیاهان هستند که به شکلی مینیاتوری یادآور درخت‌ها بوده و...
-                        </p>
-                        <div>
-                            <a href="#">بیشتر</a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="knowledgeSection">
+        <div class="blogTitle">
+          <div>
+            <h3>بلاگ گلکده یلدایی</h3>
+            <hr/>
+            <p>دانستنی های دنیای گل و گیاه</p>
+          </div>
+          <div>
+            <a href="#">
+              مشاهده همه
+              <img src="./Images/left-arrow.svg" alt="left arrow"/>
+            </a>
+          </div>
         </div>
+        <div class="aboutBlog">
+          <div class="blogItem">
+            <img
+              src="./Images/گیاهان-آپارتمانی-در-دکور-خانه.jpg"
+              alt="houseplants picture"
+            />
+            <div class="blog-info">
+              <h4>بهترین گیاهان آپارتمانی و مراقبت آسان</h4>
+              <p>
+                نگهداری گل و گیاه در منزل و آپارتمان، درظاهر کار سختی به‌نظر
+                می‌رسد و تنوع گیاهانی که متناسب با شرایط آپارتمان‌ها باشند هم
+                بسیار زیاد است. گیاهان آپارتمانی به فضای منزل‌تان سبزی و تازگی
+                می‌بخشند و...
+              </p>
+              <div>
+                <a href="#">بیشتر</a>
+              </div>
+            </div>
+          </div>
+          <div class="blogItem">
+            <img src="./Images/pothos-3.jpg" alt="pothos plant picture"/>
+            <div class="blog-info">
+              <h4>انواع پتوس؛ ۷ تا از بهترین و جذابترین واریته های پتوس</h4>
+              <p>
+                اگر به نگهداری گل و گیاه در منزل علاقه‌مندید و به دنبال گیاهی با
+                شرایط نگهداری آسان و مراقبت کم و بی دردسر هستید ما به شما پتوس
+                را پیشنهاد میدهیم ، پتوس گیاهی مقاوم است و...
+              </p>
+              <div>
+                <a href="#">بیشتر</a>
+              </div>
+            </div>
+          </div>
+          <div class="blogItem">
+            <img src="./Images/trees-in-house.jpg" alt="house tree picture"/>
+            <div class="blog-info">
+              <h4>
+                درختچه های آپارتمانی زیبا برای دکوراسیون منزل شما و نات مراقبتی
+                از آنها
+              </h4>
+              <p>
+                حضور گیاهان طبیعی در خانه همیشه باعث جریان یافتن روح زندگی در
+                فضا می شوند. درختچه‌ها گونه‌ای از گیاهان هستند که به شکلی
+                مینیاتوری یادآور درخت‌ها بوده و...
+              </p>
+              <div>
+                <a href="#">بیشتر</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Servieces -->
     <section class="container">
-        <div class="aboutServices">
-            <div class="service">
-                <img src="./Images/service1.png" alt="service one image">
-                <h4>پشتیبانی مناسب</h4>
-                <p>۷ روز هفته آماده پاسخگویی به شما هستیم</p>
-            </div>
-            <div class="vLine"></div>
-            <div class="service">
-                <img src="./Images/service2.png" alt="service two image">
-                <h4>تحویل به موقع</h4>
-                <p>هر سفارشی سر وقت تحویل داده می شود</p>
-            </div>
-            <div class="vLine"></div>
-            <div class="service">
-                <img src="./Images/service3.png" alt="service three image">
-                <h4>ضمانت سلامت کالا</h4>
-                <p>تضمین میکنیم سفارشتان سالم به دستتان برسد</p>
-            </div>
-            <div class="vLine"></div>
-            <div class="service">
-                <img src="./Images/service4.png" alt="service four image">
-                <h4>قیمت مناسب</h4>
-                <p>ما اینجاییم تا به مناسب ترین قیمت خرید کنید</p>
-            </div>
+      <div class="aboutServices">
+        <div class="service">
+          <img src="./Images/service1.png" alt="service one image"/>
+          <h4>پشتیبانی مناسب</h4>
+          <p>۷ روز هفته آماده پاسخگویی به شما هستیم</p>
         </div>
+        <div class="vLine"></div>
+        <div class="service">
+          <img src="./Images/service2.png" alt="service two image"/>
+          <h4>تحویل به موقع</h4>
+          <p>هر سفارشی سر وقت تحویل داده می شود</p>
+        </div>
+        <div class="vLine"></div>
+        <div class="service">
+          <img src="./Images/service3.png" alt="service three image"/>
+          <h4>ضمانت سلامت کالا</h4>
+          <p>تضمین میکنیم سفارشتان سالم به دستتان برسد</p>
+        </div>
+        <div class="vLine"></div>
+        <div class="service">
+          <img src="./Images/service4.png" alt="service four image"/>
+          <h4>قیمت مناسب</h4>
+          <p>ما اینجاییم تا به مناسب ترین قیمت خرید کنید</p>
+        </div>
+      </div>
     </section>
     <!-- Footer section -->
     <footer class="footerSection">
-        <div class="footerOverlay"></div>
-        <div class="container">
-            <div class="aboutFooter">
-                <div class="footer-links">
-                    <div>
-                        <h4>آشنایی با گلکده یلدایی</h4>
-                        <p>گلکده یلدایی  یک سامانه ثبت سفارش آنلاین گل و گیاه در ایران است  و از طریق این سامانه می توانید به صورت آنلاین با  عزیزان خود را سورپرایز کنید. همچنین از امکاناتی نظیر پشتیبانی تلفنی 24 ساعته همراه با خرید گل لذت ببرید.</p>
-                    </div>
-                    <div>
-                        <h4>دسته بندی محصولات</h4>
-                        <ul>
-                            <li><a href="#">انواع گل ها</a></li>
-                            <li><a href="#">هدیه و کادویی</a></li>
-                            <li><a href="#">انواع کاکتوس ها</a></li>
-                            <li><a href="#">گیاهان آپارتمانی</a></li>
-                            <li><a href="#">گیاهان گلدار</a></li>
-                            <li><a href="#">گیاهان دارویی</a></li>
-                            <li><a href="#">سم و کود</a></li>
-                            <li><a href="#">ابزار آلات باغبانی</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>ارتباطات</h4>
-                        <ul>
-                            <li><a href="#">تماس با ما</a></li>
-                            <li><a href="#">ثبت سفارشات</a></li>
-                            <li><a href="#">قوانین و مقررات</a></li>
-                            <li><a href="#">حریم خصوصی</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="social-media">
-                    <p>گلکده یلدایی در شبکه های اجتماعی:</p>
-                    <div>
-                        <a href="#">
-                            <img src="./Images/instagram-logo.png" alt="instagram logo" width="14">
-                        </a>
-                        <a href="#">
-                            <img src="./Images/twitter-logo.svg" alt="twitter logo">
-                        </a>
-                        <a href="#">
-                            <img src="./Images/github-logo.svg" alt="github logo">
-                        </a>
-                        <a href="#">
-                            <img src="./Images/linkedin-logo.png" alt="linkedin logo" width="14">
-                        </a>
-                    </div>
-                </div>
+      <div class="footerOverlay"></div>
+      <div class="container">
+        <div class="aboutFooter">
+          <div class="footer-links">
+            <div>
+              <h4>آشنایی با گلکده یلدایی</h4>
+              <p>
+                گلکده یلدایی یک سامانه ثبت سفارش آنلاین گل و گیاه در ایران است و
+                از طریق این سامانه می توانید به صورت آنلاین با عزیزان خود را
+                سورپرایز کنید. همچنین از امکاناتی نظیر پشتیبانی تلفنی 24 ساعته
+                همراه با خرید گل لذت ببرید.
+              </p>
             </div>
-            <p id="right-site">تمامی حقوق مادی و معنوی این وبسایت متعلق به <span style="color: #ff1456;">گلکده یلدایی</span> میباشد.</p>
+            <div>
+              <h4>دسته بندی محصولات</h4>
+              <ul>
+                <li><a href="#">انواع گل ها</a></li>
+                <li><a href="#">هدیه و کادویی</a></li>
+                <li><a href="#">انواع کاکتوس ها</a></li>
+                <li><a href="#">گیاهان آپارتمانی</a></li>
+                <li><a href="#">گیاهان گلدار</a></li>
+                <li><a href="#">گیاهان دارویی</a></li>
+                <li><a href="#">سم و کود</a></li>
+                <li><a href="#">ابزار آلات باغبانی</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4>ارتباطات</h4>
+              <ul>
+                <li><a href="#">تماس با ما</a></li>
+                <li><a href="#">ثبت سفارشات</a></li>
+                <li><a href="#">قوانین و مقررات</a></li>
+                <li><a href="#">حریم خصوصی</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-media">
+            <p>گلکده یلدایی در شبکه های اجتماعی:</p>
+            <div>
+              <a href="#">
+                <img
+                  src="./Images/instagram-logo.png"
+                  alt="instagram logo"
+                  width="14"
+                />
+              </a>
+              <a href="#">
+                <img src="./Images/twitter-logo.svg" alt="twitter logo"/>
+              </a>
+              <a href="#">
+                <img src="./Images/github-logo.svg" alt="github logo"/>
+              </a>
+              <a href="#">
+                <img
+                  src="./Images/linkedin-logo.png"
+                  alt="linkedin logo"
+                  width="14"
+                />
+              </a>
+            </div>
+          </div>
         </div>
+        <p id="right-site">
+          تمامی حقوق مادی و معنوی این وبسایت متعلق به
+          <span style="color: #ff1456">گلکده یلدایی</span> میباشد.
+        </p>
+      </div>
     </footer>
 
     <div>
-        <a href="#buttonToUpUrl" class="buttonToUp">
-            <img src="./Images/top-arrow.svg" alt="top arrow">
-        </a>
+      <a href="#buttonToUpUrl" class="buttonToUp">
+        <img src="./Images/top-arrow.svg" alt="top arrow"/>
+      </a>
     </div>
 
     <script src="./js/main.js"></script>
-</body>    
+  </body>
+</html>
